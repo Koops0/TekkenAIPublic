@@ -11,4 +11,4 @@ Downloaded the PC Version of Tekken 8 and used the [Nvidia app](https://www.nvid
 From the 31 videos, I seperated them into 3 datasets: train, valid and test. I then created a Python script using OpenCV where I split the dataset into separate frames. The amount of frames were 3145 for Training, 963 for Validation and 496 for Testing. This took a couple of hours.
 
 ## Part 4: Object Detection and Roboflow
-I then uploaded the images on [Roboflow](https://universe.roboflow.com/), where I create bounding boxes for objects, including enemies, players, their health, blocks and hits. Currently I'm 5% finished with the Training dataset (90% in Total) and I expect object detection for all three datasets to be done in a couple of days. This will probably be the longest part.
+I then uploaded the images on [Roboflow](https://universe.roboflow.com/), where I create bounding boxes for objects, including enemies, players, their health, blocks and hits. Currently I'm 5% finished with the Testing dataset (90% in Total) and I expect object detection for all three datasets to be done in a couple of days. This will probably be the longest part.
