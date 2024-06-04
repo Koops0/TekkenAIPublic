@@ -11,4 +11,8 @@ Downloaded the PC Version of Tekken 8 and used the [Nvidia app](https://www.nvid
 From the 31 videos, I seperated them into 3 datasets: train, valid and test. I then created a Python script using OpenCV where I split the dataset into separate frames. The amount of frames were 3145 for Training, 963 for Validation and 496 for Testing. This took a couple of hours.
 
 ## Part 4: Object Detection and Roboflow
-I then uploaded the images on [Roboflow](https://universe.roboflow.com/), where I create bounding boxes for objects, including enemies, players, their health, blocks and hits. This took 3 and a half weeks and is the longest part of this so far.
+I then uploaded the images on [Roboflow](https://universe.roboflow.com/), where I create bounding boxes for objects, including enemies, players, their health, blocks and hits. This took 3 and a half weeks and is the longest part of this project so far.
+
+## Part 5: Training a Model
+Now, I'm going to train the Roboflow model with YOLO and Pytorch. Currently, I'm going to be on break from this project as I want to finish my website, but I'll work on this once I'm done.
+
