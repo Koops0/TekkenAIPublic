@@ -14,5 +14,8 @@ From the 31 videos, I seperated them into 3 datasets: train, valid and test. I t
 I then uploaded the images on [Roboflow](https://universe.roboflow.com/), where I create bounding boxes for objects, including enemies, players, their health, blocks and hits. This took 3 and a half weeks and is the longest part of this project so far.
 
 ## Part 5: Training a Model
-Now, I'm going to train the Roboflow model with YOLO and Pytorch. Currently, I'm going to be on break from this project as I want to finish my website, but I'll work on this once I'm done.
+After creating boxes, the model needs to be trained. There's a tutorial from Roboflow themselves about how to do it with YOLOv8, so I followed that and then deployed it to my machine. This took half an hour.
+
+## Part 6: Real Time Interference
+Now, I'm going to create a script that can create real-time interference from the video capture to the model.
 
