@@ -16,6 +16,6 @@ I then uploaded the images on [Roboflow](https://universe.roboflow.com/), where 
 ## Part 5: Training a Model
 After creating boxes, the model needs to be trained. There's a tutorial from Roboflow themselves about how to do it with YOLOv8, so I followed that and then deployed it to my machine. This took half an hour.
 
-## Part 6: Real Time Inference
-Now, I'm going to create a script that can create real-time inference from the video capture to the model. Right now, I got it to work on test footage, but not real time gameplay. I'll try to find a way to get that up and running.
+## Part 6: Real Time Inference (currently on hold)
+Now, I'm going to create a script that can create real-time inference from the video capture to the model. Right now, I got it to work on test footage, but not real time gameplay. I'll try to find a way to get that up and running. 
 
